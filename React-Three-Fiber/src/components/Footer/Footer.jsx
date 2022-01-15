@@ -6,7 +6,7 @@ function Footer() {
       <footer class="py-1 bg-dark fixed-bottom">
         <div class="container">
           <p class="m-0 text-center text-white">
-            Knowing our future by exploring the past! &copy; Phylogeny Explorer Project
+            Sponsor this project on Github! &copy; <a href ="https://patreon.com/Clickonrefresh"> Clickonrefresh</a>
           </p>
         </div>
       </footer>

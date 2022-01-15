@@ -1,11 +1,8 @@
 import { React } from "react";
 import styled from "styled-components";
-// import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
-// import { Earth } from "../../components/earth";
-// import { TopSection } from "../../components/topSection";
-import { WelcomeText } from "../../components/WelcomeSection/WelcomeText/WelcomeText";
-import {  WelcomeDino, } from "../../components/WelcomeSection/WelcomeDino";
+import { LogoText } from "../../components/logoText/LogoText";
+
 
 const CanvasContainer = styled.div`
   width: 100%;
@@ -13,39 +10,18 @@ const CanvasContainer = styled.div`
   position: absolute;
 `;
 
-const blob = styled.div`
-  text-align: right;
-  position: right;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: 0xffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 4%;
-  z-index: 9999;
-`
 
 function Welcome() {
   return (
     <CanvasContainer>
-       
-      {/* <Canvas> */}
-      <WelcomeText />
-      <blob>
-       <Suspense fallback={null}>
 
-         <WelcomeDino />
-         
-         
-          
+      <Suspense fallback={null}>
+ 
+        <iframe title="clickonrefresh-logo" src='https://my.spline.design/clickonrefreshlogo-17d27ba558ec93e0e1d90ab794ce3d6b/' frameborder='0' width='100%' height='100%'></iframe>
+        <LogoText />
+      </Suspense>
 
-         </Suspense>
-         </blob>
-      {/* </Canvas> */}
-     </CanvasContainer>
+    </CanvasContainer>
   );
 }
 

@@ -1,7 +1,7 @@
 {
 
-  "name": "pep-react-3d",
-  "version": "0.0.1",
+  "name": "react-three-fiber-template",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@react-three/drei": "^7.0.2",

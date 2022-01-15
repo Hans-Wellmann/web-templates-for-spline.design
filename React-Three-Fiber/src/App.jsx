@@ -6,12 +6,9 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer"
 
-import { Landing } from "./pages/Landing";
+
 import { Welcome } from "./pages/Welcome";
-import { Users } from "./pages/Users";
-import { Developers } from "./pages/Developers";
-import { ProjectManagement } from "./pages/ProjectManagement";
-import { Onboarding } from "./pages/Onboarding";
+import { Guide } from "./pages/Guide";
 
 
 const CanvasContainer = styled.div`
@@ -28,12 +25,8 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/" exact component={Landing} />
-          <Route path="/welcome" exact component={Welcome} />
-          <Route path="/users" exact component={Users} />
-          <Route path="/developers" exact component={Developers} />
-          <Route path="/projectmanagement" exact component={ProjectManagement} />
-          <Route path="/onboarding" exact component={Onboarding} />
+          <Route path="/" exact component={Welcome} />
+          <Route path="/guide" exact component={Guide} />
         </Switch>
         
       </Router>

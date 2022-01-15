@@ -6,7 +6,7 @@ import styled from "styled-components";
 
 
 const Container = styled.div`
-  text-align: left;
+  text-align: center;
   position: absolute;
   width: 50%;
   height: 100%;
@@ -17,14 +17,14 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   padding-top: 4%;
-  z-index: 99;
+
 `
 const Logo = styled.h1`
   text-align: center;
-  margin: 0;
+  margin-top: 1em;
   color: #fff;
   font-weight: 800;
-  font-size: 80px;
+  font-size: 30px;
 `;
 
 const Slogan = styled.h4`
@@ -40,7 +40,7 @@ const Paragraph = styled.p`
   margin-top: 3em;
   margin-bottom: 2em;
   color: #fff;
-  font-size: 26px;
+  font-size: 20px;
   line-height: 1.5;
   font-weight: 500;
   max-width: 30%;
@@ -52,14 +52,14 @@ const Paragraph = styled.p`
 export function LogoText() {
     return (
       <Container>
-        <Logo>Welcome to Phylogeny Explorer Project</Logo>
-        <Slogan>Knowing our future by exploring the past</Slogan>
+        <Logo>Templates for Spline Design</Logo>
+        <Slogan>React Three Fiber </Slogan>
   
         <Paragraph>
-          3D Logo<br />
-          Prototype<br />
-          Thoughts &amp; Rumenations<br /> 
-          Ideas!
+          Easily add your <br />
+          Spline Design creations<br />
+          to this template<br /> 
+          &amp; create your own website!
         </Paragraph>
   
   
@@ -67,13 +67,3 @@ export function LogoText() {
     );
   }
   export default LogoText;
-
-
-        /* <Container>
-        <UserButton><a href="/Users">Users</a></UserButton>
-        <DevButton><a href="/Developers">Developers</a></DevButton>
-        </Container>
-        <Container>
-          <ProjectManagementButton><a href="/ProjectManagement">Project Management</a></ProjectManagementButton>
-          <OnboardingButton><a href="/Onboarding">Onboarding</a></OnboardingButton>
-        </Container> */
