@@ -1,4 +1,7 @@
-# Welcome to my templates for loading and displaying Spline.Design creations
+# Welcome to my Spline Website Templates
+
+### Templates for loading and displaying Spline.Design creations on the web
+#### Customise your site with your unique Spline.Designs and text.
 
 ## [React Three Fiber]()
 
