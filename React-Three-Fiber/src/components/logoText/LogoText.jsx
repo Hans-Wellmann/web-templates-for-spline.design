@@ -1,8 +1,5 @@
-
 import React from "react";
-// import ReactDOM from 'react-dom';
 import styled from "styled-components";
-
 
 
 const Container = styled.div`
@@ -47,23 +44,41 @@ const Paragraph = styled.p`
   text-align: center;
 `;
 
+const Button = styled.button`
+  background: rgb(37,130,128);
+  background: linear-gradient(90deg, rgba(37,130,128,1) 0%, rgba(76,175,80,1) 100%); 
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 2px solid #00FF00;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
+`
+
+
 
 
 export function LogoText() {
-    return (
-      <Container>
-        <Logo>Templates for Spline Design</Logo>
-        <Slogan>React Three Fiber </Slogan>
-  
-        <Paragraph>
-          Easily add your <br />
-          Spline Design creations<br />
-          to this template<br /> 
-          &amp; create your own website!
-        </Paragraph>
-  
-  
-      </Container>
-    );
-  }
-  export default LogoText;
+  return (
+    <Container>
+      <Logo>Templates for Spline.Design</Logo>
+      <Slogan>React Three Fiber</Slogan>
+
+      <Paragraph>
+        Easily add your <br />
+        Spline Design creations<br />
+        to this template<br />
+        &amp; create your own website!
+      </Paragraph>
+      <Button as="a" href="/guide">Guide</Button>
+
+
+    </Container>
+  );
+}
+export default LogoText;
