@@ -6,6 +6,18 @@ by Clickonrefresh
 
 ## [React Three Fiber]()
 
+# How to run and deploy this project
+
+```
+yarn install
+yarn start
+yarn build
+npm install netlify-cli -g
+netlify deploy
+netlify deploy --prod
+```
+
+
 * To Do
 Guide page
 Guide page css
