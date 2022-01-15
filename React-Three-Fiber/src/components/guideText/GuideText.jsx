@@ -6,6 +6,7 @@ const Container = styled.div`
   position: absolute;
   width: 50%;
   height: 100%;
+  color: black;
   top: 0;
   left: 0;
   background-color: 0xffffff;
@@ -15,31 +16,32 @@ const Container = styled.div`
   padding-top: 4%;
   z-index: 99;
 `
-const Logo = styled.h1`
+const Title = styled.h1`
   text-align: center;
-  margin: 0;
+  margin-top: 1em;
+  margin-bottom: 2em;
   color: #fff;
   font-weight: 800;
-  font-size: 80px;
+  font-size: 20px;
 `;
 
-const Slogan = styled.h4`
-  margin: 0;
-  color: #fff;
-  font-weight: 600;
-  font-size: 25px;
-  margin-top: 10px;
-`;
+// const Slogan = styled.h4`
+//   margin: 0;
+//   color: #fff;
+//   font-weight: 600;
+//   font-size: 18px;
+//   margin-top: 10px;
+// `;
 
 const Paragraph = styled.p`
   margin: 0;
-  margin-top: 3em;
-  margin-bottom: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
   color: #fff;
-  font-size: 26px;
+  font-size: 16px;
   line-height: 1.5;
   font-weight: 500;
-  max-width: 30%;
+  max-width: 40%;
   text-align: center;
 `;
 
@@ -48,15 +50,22 @@ const Paragraph = styled.p`
 export function GuideText() {
     return (
       <Container>
-        <Logo>Clickonrefresh Templates for your Spline Design's</Logo>
-        <Slogan>React Three Fiber </Slogan>
+        <Title>How to use this template</Title>
+        {/* <Slogan>React Three Fiber </Slogan> */}
   
         <Paragraph>
-          Easily add your <br />
-          Spline Design creations<br />
-          to this template<br /> 
-          &amp; create your own website!
-
+          Export your final Spline.Design creation to a public URL.
+        </Paragraph>
+  
+        <Paragraph>
+        Copy the embed link.
+        </Paragraph>
+  
+        <Paragraph as="a" href="https://github.com/clickonrefresh/web-templates-for-spline.design">
+        Clone this project and run.
+        </Paragraph>
+        <Paragraph>
+        Navigate to /src/pages/Welcome and replace the iframe line with your embed link.
         </Paragraph>
   
   

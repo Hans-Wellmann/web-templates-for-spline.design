@@ -35,14 +35,11 @@ function Guide() {
        <Suspense fallback={null}>
        <GuideText />
          
-       <iframe title="d" src='https://my.spline.design/clickonrefreshlogo-17d27ba558ec93e0e1d90ab794ce3d6b/' frameborder='0' width='100%' height='100%'></iframe>
-
-          
-
-         </Suspense>
+       <iframe title="demo3Drocks" src='https://my.spline.design/3drockscopy-88a53e3aa63d28c6741fc5f7e255e60f/' frameborder='10' width='100%' height='100%'></iframe>         </Suspense>
          </Blob>
+         <iframe title="demo3Dlathegradients"  src='https://my.spline.design/lathegradientscopy-032a113e7522a6478c049009573fd962/' frameborder='10' width='100%' height='100%'></iframe>
 
-     </CanvasContainer>
+              </CanvasContainer>
   );
 }
 
