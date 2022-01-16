@@ -64,7 +64,7 @@ const Button = styled.button`
 
 
 
-export function LogoText(props) {
+export function LogoText() {
   return (
     <Container>
 
@@ -77,7 +77,7 @@ export function LogoText(props) {
         with easy to use<br />
         website templates!
       </Paragraph>
-      <Button to="/Guide">Guide</Button>
+      <Button><Link to="/Guide">Guide</Link></Button>
 
 
     </Container>
