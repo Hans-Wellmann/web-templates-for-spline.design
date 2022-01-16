@@ -75,8 +75,7 @@ export function GuideText() {
       <Paragraph>
         Deploy your project to a static host of your choice
       </Paragraph>
-      <Button as="a" href="https://app.netlify.com/start/deploy?repository=https://github.com/clickonrefresh/web-templates-for-spline.design"><img alt="deploynetlify" src="https://www.netlify.com/img/deploy/button.svg" /></Button>
-
+      <Button as="a" href="https://vercel.com/new/clone?repository-url=https://github.com/clickonrefresh/web-templates-for-spline.design/tree/main/React-Three-Fiber"><img alt="deployvercel" src="https://vercel.com/button" /></Button>
     </Container>
   );
 }
