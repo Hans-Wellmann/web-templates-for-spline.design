@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Link, withRouter } from "react-router-dom";
+import {  withRouter } from "react-router-dom";
 
 
 const Container = styled.div`
@@ -77,7 +77,7 @@ export function LogoText() {
         with easy to use<br />
         website templates!
       </Paragraph>
-      <Button><Link to="/Guide">Guide</Link></Button>
+      <Button as="a" href="/Guide">Guide</Button>
 
 
     </Container>
