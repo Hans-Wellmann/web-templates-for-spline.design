@@ -60,12 +60,8 @@ export function GuideText() {
 
       <Paragraph>
         Export your final Spline.Design creation to a public URL.
-      </Paragraph>
-
-      <Paragraph>
         Copy the embed link.
       </Paragraph>
-
       <Paragraph as="a" href="https://github.com/clickonrefresh/web-templates-for-spline.design">
         Clone this project and run.
       </Paragraph>
@@ -73,7 +69,7 @@ export function GuideText() {
         Navigate to /src/pages/Welcome and replace the iframe line with your embed link.
       </Paragraph>
       <Paragraph>
-        Any changes made to your Spline.Design project then saved and exported will automatically appear on your website.
+        Any changes made to your Spline.Design and exported will automatically appear on your website.
       </Paragraph>
       <Paragraph>
         Deploy your project to a static host of your choice
