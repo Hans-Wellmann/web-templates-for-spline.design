@@ -18,8 +18,8 @@ const Container = styled.div`
 `
 const Title = styled.h1`
   text-align: center;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 10px;
+  margin-bottom: 1.5em;
   color: #fff;
   font-weight: 800;
   font-size: 20px;
@@ -69,7 +69,7 @@ export function GuideText() {
         Navigate to /src/pages/Welcome and replace the iframe line with your embed link.
       </Paragraph>
       <Paragraph>
-        Any changes made to your Spline.Design and exported will automatically appear on your website.
+        Changes made in Spline editor and exported, automatically appear on your website.
       </Paragraph>
       <Paragraph>
         Deploy this example to Vercel and start sharing your designs!
