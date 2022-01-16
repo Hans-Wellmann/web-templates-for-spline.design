@@ -18,7 +18,7 @@ const Container = styled.div`
 `
 const Title = styled.h1`
   text-align: center;
-  margin-top: 1em;
+  margin-top: 2em;
   margin-bottom: 2em;
   color: #fff;
   font-weight: 800;
@@ -72,7 +72,7 @@ export function GuideText() {
         Any changes made to your Spline.Design and exported will automatically appear on your website.
       </Paragraph>
       <Paragraph>
-        Deploy this example to Vercel and start editing!
+        Deploy this example to Vercel and start sharing your designs!
       </Paragraph>
       <Button as="a" href="https://vercel.com/new/clone?repository-url=https://github.com/clickonrefresh/web-templates-for-spline.design/tree/main/React-Three-Fiber"><img alt="deployvercel" src="https://vercel.com/button" /></Button>
     </Container>
