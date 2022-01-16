@@ -1,3 +1,9 @@
 [[redirects]]
-from = "/"
+  from = "/"
   to = "/Welcome"
+  force = "true"
+
+[[redirects]]
+  from = "/Guide"
+  to = "/Guide"
+  force = "true"
