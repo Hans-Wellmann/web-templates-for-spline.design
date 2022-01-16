@@ -37,7 +37,7 @@ function Navbar(props) {
                 </Link>
               </li> */}
               <li
-                class={`nav-item  ${props.location.pathname === "/guide" ? "active" : ""
+                class={`nav-item  ${props.location.pathname === "/Guide" ? "active" : ""
                   }`}
               >
                 <Link class="nav-link" to="/Guide">
