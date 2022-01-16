@@ -1,16 +1,18 @@
 # Spline Website Templates 
-by Clickonrefresh
+*by Clickonrefresh*
 
 ### Templates for loading and displaying Spline.Design creations on the web
 #### Customise your site with your unique Spline.Designs and text.
 --------------------
 
-## [React Three Fiber](/React-Three-Fiber)
+# Templates:
 
-#### [View The Live Site](https://clickonrefresh-templates-splinedesign-r3f.netlify.app/)
+## [React Three Fiber on Vercel](/React-Three-Fiber)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a0093858-8b99-40dd-a43c-b52ce8358965/deploy-status)](https://app.netlify.com/sites/clickonrefresh-templates-splinedesign-r3f/deploys)
+#### [Live Site](https://web-templates-splinedesign-r3f.vercel.app/)
 
 ----------------------
 
-## [Nextjs]()
+## [Nextjs on Vercel](/Nextjs)
+## [Webpack](/Webpack)
+## [Vanilla JS on Github Pages](/Vanilla-JS)
