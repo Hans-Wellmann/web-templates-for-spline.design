@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import {  withRouter } from "react-router-dom";
 
 
 const Container = styled.div`
@@ -76,10 +77,10 @@ export function LogoText() {
         with easy to use<br />
         website templates!
       </Paragraph>
-      <Button as="a" href="https://clickonrefresh-templates-splinedesign-r3f.netlify.app/Guide">Guide</Button>
+      <Button as="a" href="Guide">Guide</Button>
 
 
     </Container>
   );
 }
-export default LogoText;
+export default withRouter(LogoText);
