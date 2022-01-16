@@ -62,14 +62,14 @@ export function GuideText() {
         Export your final Spline.Design creation to a public URL.
         Copy the embed link.
       </Paragraph>
-      <Paragraph as="a" href="https://github.com/clickonrefresh/web-templates-for-spline.design">
-        Clone this project and run.
-      </Paragraph>
       <Paragraph>
         Navigate to /src/pages/Welcome and replace the iframe line with your embed link.
       </Paragraph>
       <Paragraph>
         Changes made in Spline editor and exported, automatically appear on your website.
+      </Paragraph>
+      <Paragraph as="a" href="https://github.com/clickonrefresh/web-templates-for-spline.design">
+        Clone this project on Github, or
       </Paragraph>
       <Paragraph>
         Deploy this example to Vercel and start sharing your designs!
