@@ -37,11 +37,11 @@ function Navbar(props) {
                 </Link>
               </li> */}
               <li
-                class={`nav-item  ${props.location.pathname === "/Guide" ? "active" : ""
+                class={`nav-item  ${props.location.pathname === "/guide" ? "active" : ""
                   }`}
               >
                 <Link class="nav-link" to="/Guide">
-                  GUIDE
+                  Guide
                 </Link>
               </li>
             </ul>

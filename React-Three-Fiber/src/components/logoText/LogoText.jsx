@@ -76,7 +76,7 @@ export function LogoText() {
         with easy to use<br />
         website templates!
       </Paragraph>
-      <Button as="a" href="/Guide">Guide</Button>
+      <Button as="a" href="/guide">Guide</Button>
 
 
     </Container>
