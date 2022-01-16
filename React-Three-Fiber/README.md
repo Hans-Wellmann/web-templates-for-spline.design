@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d279e88c-1532-44c4-8a53-6c11fb2b0a29/deploy-status)](https://app.netlify.com/sites/dazzling-wilson-a112d8/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a0093858-8b99-40dd-a43c-b52ce8358965/deploy-status)](https://app.netlify.com/sites/clickonrefresh-templates-splinedesign-r3f/deploys)
 
 # How to run and deploy this project
 
@@ -11,3 +11,6 @@ netlify deploy
 netlify deploy --prod
 ```
 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/clickonrefresh/web-templates-for-spline.design)
+
+<!-- [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/clickonrefresh/web-templates-for-spline.design&utm_source=github) -->

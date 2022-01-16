@@ -18,7 +18,7 @@ const Container = styled.div`
 `
 const Logo = styled.h1`
   text-align: center;
-  margin-top: 1em;
+  margin-top: 2em;
   color: #fff;
   font-weight: 800;
   font-size: 30px;
@@ -28,14 +28,14 @@ const Slogan = styled.h4`
   margin: 0;
   color: #fff;
   font-weight: 600;
-  font-size: 25px;
-  margin-top: 10px;
+  font-size: 14px;
+  margin-top: 2em;
 `;
 
 const Paragraph = styled.p`
   margin: 0;
   margin-top: 3em;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
   color: #fff;
   font-size: 20px;
   line-height: 1.5;
@@ -55,7 +55,7 @@ const Button = styled.button`
   display: inline-block;
   font-size: 16px;
   border-radius: 12px;
-  border: 2px solid #00FF00;
+  // border: 2px solid #00FF00;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   
 `
@@ -66,16 +66,17 @@ const Button = styled.button`
 export function LogoText() {
   return (
     <Container>
-      <Logo>Templates for Spline.Design</Logo>
-      <Slogan>React Three Fiber</Slogan>
+
+      <Logo>Web Templates for Spline.Design</Logo>
+      <Slogan>React Three Fiber Template with Styled Components</Slogan>
 
       <Paragraph>
-        Easily add your <br />
-        Spline Design creations<br />
-        to this template<br />
-        &amp; create your own website!
+        Show off your <br />
+        Spline.Design creations<br />
+        with easy to use<br />
+        website templates!
       </Paragraph>
-      <Button as="a" href="/guide">Guide</Button>
+      <Button as="a" href="/Guide">Guide</Button>
 
 
     </Container>

@@ -45,31 +45,39 @@ const Paragraph = styled.p`
   text-align: center;
 `;
 
+const Button = styled.button`
+  border: none;
+  padding: 10px 24px;
+  display: inline-block;
+`
 
 
 export function GuideText() {
-    return (
-      <Container>
-        <Title>How to use this template</Title>
-        {/* <Slogan>React Three Fiber </Slogan> */}
-  
-        <Paragraph>
-          Export your final Spline.Design creation to a public URL.
-        </Paragraph>
-  
-        <Paragraph>
+  return (
+    <Container>
+      <Title>How to use this template</Title>
+      {/* <Slogan>This template uses React Three Fiber with Styled Components </Slogan> */}
+
+      <Paragraph>
+        Export your final Spline.Design creation to a public URL.
+      </Paragraph>
+
+      <Paragraph>
         Copy the embed link.
-        </Paragraph>
-  
-        <Paragraph as="a" href="https://github.com/clickonrefresh/web-templates-for-spline.design">
+      </Paragraph>
+
+      <Paragraph as="a" href="https://github.com/clickonrefresh/web-templates-for-spline.design">
         Clone this project and run.
-        </Paragraph>
-        <Paragraph>
+      </Paragraph>
+      <Paragraph>
         Navigate to /src/pages/Welcome and replace the iframe line with your embed link.
-        </Paragraph>
-  
-  
-      </Container>
-    );
-  }
-  export default GuideText;
+      </Paragraph>
+      <Paragraph>
+        Deploy your project to a static host of your choice
+      </Paragraph>
+      <Button as="a" href="https://app.netlify.com/start/deploy?repository=https://github.com/clickonrefresh/web-templates-for-spline.design"><img alt="deploynetlify" src="https://www.netlify.com/img/deploy/button.svg" /></Button>
+
+    </Container>
+  );
+}
+export default GuideText;
