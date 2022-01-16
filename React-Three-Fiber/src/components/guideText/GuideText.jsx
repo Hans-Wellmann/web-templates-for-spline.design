@@ -73,6 +73,9 @@ export function GuideText() {
         Navigate to /src/pages/Welcome and replace the iframe line with your embed link.
       </Paragraph>
       <Paragraph>
+        Any changes made to your Spline.Design project then saved and exported will automatically appear on your website.
+      </Paragraph>
+      <Paragraph>
         Deploy your project to a static host of your choice
       </Paragraph>
       <Button as="a" href="https://vercel.com/new/clone?repository-url=https://github.com/clickonrefresh/web-templates-for-spline.design/tree/main/React-Three-Fiber"><img alt="deployvercel" src="https://vercel.com/button" /></Button>

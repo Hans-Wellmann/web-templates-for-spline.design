@@ -1,3 +1,1 @@
-import { GuideText } from "./GuideText";
-
-export default  GuideText
+export {default as GuideText } from "./GuideText";

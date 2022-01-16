@@ -64,12 +64,12 @@ const Button = styled.button`
 
 
 
-export function LogoText() {
+export function WelcomeText() {
   return (
     <Container>
 
-      <Logo>Web Templates for Spline.Design</Logo>
-      <Slogan>React Three Fiber Template with Styled Components</Slogan>
+      <Logo>Web Templates for <a href="https://spline.design">Spline.Design</a></Logo>
+      <Slogan>React Three Fiber with Styled Components</Slogan>
 
       <Paragraph>
         Show off your <br />
@@ -83,4 +83,4 @@ export function LogoText() {
     </Container>
   );
 }
-export default withRouter(LogoText);
+export default withRouter(WelcomeText);
