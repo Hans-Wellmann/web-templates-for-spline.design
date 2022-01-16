@@ -3,8 +3,11 @@
 # How to run and deploy this project
 
 ```
-yarn install
-yarn start
-yarn build
+npm install
+npm run start
+npm run build
+npm install netlify-cli -g
+netlify deploy
+netlify deploy --prod
 ```
 
