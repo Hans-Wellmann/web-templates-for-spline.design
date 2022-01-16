@@ -77,7 +77,7 @@ export function LogoText(props) {
         with easy to use<br />
         website templates!
       </Paragraph>
-      <Button as ="a" href="/Guide">Guide</Button>
+      <Button to="/Guide">Guide</Button>
 
 
     </Container>
